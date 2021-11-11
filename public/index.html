@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>School API</title>
+    <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    h3 {
+      margin-left: 25px;
+      text-align: center;
+    }
+
+    a {
+      color: #ff4c3f;
+    }
+
+    h3 a {
+      margin-left: 15px;
+    }
+
+    a:hover, a:focus, a:active {
+      color: #005607;
+    }
+
+    .details {
+      position: absolute;
+      top: 20%;
+      left: 45%;
+      transform: translate(-50%, -50%)
+    }
+
+    .details h1 {
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    .details h2 {
+      text-align: center;
+      margin-bottom: 0;
+    }
+ 
+  </style>
+</head>
+
+<body>
+  <div class="details">
+    <h1>School API</h1>
+    <h2><tr>------------ OpenAPI ------------</tr></h2>
+        <h3>
+        <a href="http://localhost:3000/api/students">Get details about students</a>
+        <a href="http://localhost:3000/api/courses">Get details about courses</a>
+        <a href="http://localhost:3000/api/professors">Get details about professors</a>
+    </h3>
+    <br>
+    <h2>------------ API Explorer ------------ </h2>
+       <h3> 
+           <a href="http://localhost:3000/api/students/count">Get count of students</a>
+           <a href="http://localhost:3000/api/courses/count">Get count of courses</a>
+           <a href="http://localhost:3000/api/professors/count">Get count of professors</a>
+        </h3>
+  </div>
+</body>
+</html>
